@@ -51,7 +51,7 @@ export default function Hero() {
       </div>
       <div>
         <img
-          className="rounded-full lg:h-96 w-auto max-md:h-64 object-cover shadow-2xl"
+          className="rounded-full lg:h-96 w-auto max-md:h-64 object-cover shadow-2xl ring ring-indigo-400 hover:ring-indigo-100 ring-offset-4 ring-offset-slate-950"
           src={img}
           alt="Marc Dimacuha"
         />
