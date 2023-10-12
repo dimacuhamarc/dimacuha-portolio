@@ -5,8 +5,7 @@ import Highlighted from '../template/Highlighted';
 
 export default function Hero() {
   return (
-    <div className="flex lg:flex-row max-md:flex-col-reverse gap-12 items-center justify-center h-auto w-max">
-      
+    <div className="flex lg:flex-row max-md:flex-col-reverse gap-12 items-center justify-center h-full w-max">
       <div className="flex flex-col gap-3 w-2/3">
         <h1 className="text-5xl text-white font-bold">
           Hi, I'm Marc Dimacuha 👋

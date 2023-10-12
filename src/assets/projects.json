@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Emilia Clarke Tribute Page",
+    "description": "Landing Page for Emilia Clarke.",
+    "image": "projects/tribute-page.png",
+    "technologies": "HTML, CSS",
+    "url": "https://tribute-page-marc-angeloan11.avionschool-batch31-fe.repl.co/"
+  },
+  {
+    "title": "StreamFlix Feedback Form",
+    "description": "Feedback form design for StreamFlix | Introducing our carefully crafted StreamFlix feedback form. Designed to capture your valuable insights and suggestions.",
+    "image": "projects/feedback-form.png",
+    "technologies": "HTML, CSS",
+    "url": "https://product-landing-page-dimacuhamarc.avionschool-batch31-fe.repl.co/"
+  },    
+  {
+    "title": "Pokécenter Manila | Pokedex Product Landing Page",
+    "description": "Presenting the PokeCenter Manila Pokedex Product Page: designed to provide a seamless experience for Pokemon enthusiasts.",
+    "technologies": "HTML, CSS/SASS, JavaScript",
+    "image": "projects/product-landing.png",
+    "url": "https://product-landing-page-dimacuhamarc.avionschool-batch31-fe.repl.co/"
+  },    
+  {
+    "title": "TicTacToe by Marc Dimacuha",
+    "description": "Introducing [TicTacToe] by Marc Dimacuha - a thoughtfully designed product page that offers a seamless and engaging experience for players. Dive into the classic game of Tic-Tac-Toe with ease and enjoy the nostalgia with this user-friendly interface",
+    "technologies": "HTML, SASS, JavaScript",
+    "image": "projects/tictactoe.png",
+    "url": "https://tic-tac-toe-dimacuhamarc.avionschool-batch31-fe.repl.co/"
+  },    
+  {
+    "title": "Momentum App Clone",
+    "description": "Introducing Momentum App - Its elegantly designed interface is a gateway to the world of productivity and motivation, equipped with powerful features to maximize your daily potential.",
+    "technologies": "HTML, SASS, JavaScript",
+    "image": "projects/momentum-app.png",
+    "url": "https://momentum-app-dimacuhamarc.avionschool-batch31-fe.repl.co/"
+  },    
+  {
+    "title": "Age Calculator",
+    "description": "Frontend Project challenge by FrontendMentor",
+    "technologies": "HTML, SASS, JavaScript",
+    "image": "projects/age-calculator.png",
+    "url": "https://howoldru.netlify.app/"
+  },    
+  {
+    "title": "BootUP Startup Event Landing Page",
+    "description": "I designed the BootUP Startup Event Landing Page, focusing on clean and engaging visuals to provide attendees with a seamless and informative experience.",
+    "technologies": "ReactJS, ChakraUI",
+    "image": "projects/bootUP-Philippines.png",
+    "url": "bootup-sage.vercel.app"
+  },    
+  {
+    "title": "CoinPal: An Admin Bank Application + Budget App",
+    "description": "Together with Paulene Pallan, We designed CoinPal, an admin bank application + budget app that aims to provide a seamless and engaging experience for users.",
+    "technologies": "ReactJS, SASS",
+    "image": "projects/coinpal.png",
+    "url": "https://coinpal-bypauandmarc.vercel.app/"
+  }
+]
+
