@@ -45,8 +45,8 @@
     "title": "BootUP Startup Event Landing Page",
     "description": "I designed the BootUP Startup Event Landing Page, focusing on clean and engaging visuals to provide attendees with a seamless and informative experience.",
     "technologies": "ReactJS, ChakraUI",
-    "image": "projects/bootUP-Philippines.png",
-    "url": "bootup-sage.vercel.app"
+    "image": "projects/bootup.png",
+    "url": "https://bootup-sage.vercel.app/"
   },    
   {
     "title": "CoinPal: An Admin Bank Application + Budget App",
