@@ -8,7 +8,7 @@ export default function Navbar() {
   const location = useLocation();
 
   return (
-    <header className="bg-slate-600 top-4 inset-x-0 mx-auto fixed rounded-xl w-8/12 z-50">
+    <header className="bg-slate-600 bg-opacity-90 backdrop-blur-sm top-4 inset-x-0 mx-auto fixed rounded-xl w-8/12 z-50 shadow-lg shadow-slate-900 hover:scale-105">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className=" max-md:hidden text-center sm:text-left">

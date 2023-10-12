@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 
 const Card = ({ title, description, image, stack, url }) => {
   return (
-    <div className="card w-full flex flex-row gap-6 max-lg:flex-col">
+    <div className="card w-full flex flex-row gap-6 max-lg:flex-col rounded-2xl bg-transparent hover:bg-slate-900 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-2xl ga
+    p-3">
       <img className="w-3/6 max-lg:w-full rounded-xl hover:brightness-125 hover:scale-105" src={image} alt={title} />
       <div className="w-full flex flex-col items-start justify-center gap-5">
         <h1 className="text-3xl font-bold underline decoration-indigo-500 underline-offset-4 decoration-4 hover:decoration-indigo-50">{title}</h1>

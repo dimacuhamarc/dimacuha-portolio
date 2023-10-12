@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import { Footer } from './components/Footer';
 import Contact from './pages/Contact';
-import AutoScroll from './assets/utils/AutoScroll';
+import AutoScroll from './utils/AutoScroll';
 
 function App() {
   return (

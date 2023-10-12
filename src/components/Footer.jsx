@@ -2,7 +2,7 @@ import { SiSemanticuireact, SiTailwindcss } from 'react-icons/si';
 
 export const Footer = () => {
   return (
-    <footer className="h-fit bg-slate-600 mx-auto mt-12 rounded-xl w-8/12 z-50">
+    <footer className="h-fit bg-slate-600 mx-auto mt-12 rounded-t-xl w-8/12 z-50">
       <div className="flex flex-col py-12 items-center justify-center gap-1 text-indigo-50">
         <p className="text-sm">Marc Dimacuha © 2023</p>
         <p className="text-xs">All rights reserved.</p>
