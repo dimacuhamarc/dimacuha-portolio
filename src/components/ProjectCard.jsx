@@ -1,6 +1,8 @@
 import React from 'react';
 import projects from '../assets/projects.json';
+import designs from '../assets/designs.json';
 import { Link } from 'react-router-dom';
+import { Transition } from '@headlessui/react';
 
 
 const Card = ({ title, description, image, stack, url }) => {
@@ -18,9 +20,9 @@ const Card = ({ title, description, image, stack, url }) => {
   );
 };
 
-const ProjectCards = () => {
+const WebProjectCards = () => {
   return (
-    <div className='flex flex-col h-full w-full gap-6'>
+    <div className='flex flex-col-reverse h-full w-full gap-6'>
       {projects.map((project, index) => (
         <Card
           key={index}
@@ -34,4 +36,22 @@ const ProjectCards = () => {
     </div>
   );
 };
-export default ProjectCards;
+
+const DesignProjectCards = () => {
+  return (
+    <div className='flex flex-col h-full w-full gap-6'>
+      {designs.map((designs, index) => (
+        <Card
+          key={index}
+          title={designs.title}
+          description={designs.description}
+          image={designs.image}
+          stack={designs.year}
+          url={designs.url}
+        />
+      ))}
+    </div>
+  );
+};
+
+export { WebProjectCards, DesignProjectCards };

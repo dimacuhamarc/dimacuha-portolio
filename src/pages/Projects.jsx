@@ -1,10 +1,20 @@
-import ProjectCards from "../components/ProjectCard";
+import { WebProjectCards, DesignProjectCards } from "../components/ProjectCard";
 import Body from "../template/Body";
 
-export default function Projects() {
+function ProjectsWeb() {
   return (
     <Body>
-      <ProjectCards/>
+      <WebProjectCards/>
     </Body>
   );
 }
+
+function ProjectsDesign() {
+  return (
+    <Body>
+      <DesignProjectCards/>
+    </Body>
+  );
+}
+
+export { ProjectsWeb, ProjectsDesign };
